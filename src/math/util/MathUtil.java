@@ -33,6 +33,7 @@ public class MathUtil {
         //tao ki vong m nem ve ngoai le, maf phai laf ngoai le IllegalArgumentException neu t co tinh,
         //nguoi xai ham cua tao dua tham so am, >20
         System.out.println("expected: IllegalArgumentException: " + MathUtility.getFactorial(-5));
+        System.out.println("Chuc cuoi tuan thu 9 vui ve");
     }
     
 }
