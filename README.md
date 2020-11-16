@@ -4,7 +4,7 @@
 * .gitignore file using for NetBeans project
 * README.md - this file itself to demonstrate the Mark Down Language
 * ...
-## Connecr me via
+## Connect me via
 [Facebook](https://facebook.com/profile.php?id=100010831787487)
 
 #### © 2020 by thuy bac
