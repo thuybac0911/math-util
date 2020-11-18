@@ -40,3 +40,24 @@ public class MathUtility {
     }
 
 }
+// minh muon ket luan ham ngon, minh phai test cac truong hop xai ham
+//truong hop 5! 0! -5! 21! 20! ....
+//minh phai thiet ke cac test case, tinh huong test de dau di minh verify
+//giua gia tri tra ve cua ham(actual) co khop vs expected cai minh du doan
+//ham chay phai tra ve
+//va neu moi thu khop, tuc la actual == expected, minh moi dam gay: HAM NGON
+//CACH NAY CO NHUOC DIEM: NHIN BANG MAT VA SO SANH KET QUA CUA TUNG CASE
+//                                                                  tinh huong test
+//Cach nay on, nhun tiem an sai sot do nhin = mat nhieu case
+
+//Cach nang cao
+//cung nhin = mat, nhung chi nhin 2 mau xanh -  do cho moi test case
+//co nghia: neu ban xai ham vs 100 tham so, chay ham 100 tinh huong khac nhau
+//ban chi can nhin duy nhat 2 mau xanh, do
+//XANH: code on cho moi test case, moi tinh huong goi ham, moi case phai co expected = actual thi moi xanh
+//DO: moi case mau xanh, chi co it nhat 1 case mau do, ket luan ca dam ddor
+//      ham dung cho 99 truong hop , expected = actual cho 99% tinh huong
+//      chi co 1 tinh huong sai, ko khop, ket luan luon, ham k on dinh
+//      ai dma xai khi ko on dinh, on dinh va chinh xac phai cho cho moi truong hop
+//CHI CAN IT NHAT 1 CAI KHONG ON, DO CA DAM DE DAM BAO RANG HAM PHAI CHINH XAC MOI TINH HUONG
+//
