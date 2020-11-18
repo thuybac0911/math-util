@@ -25,19 +25,34 @@ public class MathUtility {
     //bài này mình sẽ chặn giai thừa từ 0..20
     //âm hoặc 21 chửi, k thèm tính
     
-    public static long getFactorial(int n){
-        if(n<0 || n>21)
-            throw new IllegalArgumentException("n must be between 0..20");
-        if (n== 0 || n==1)
-            return 1; //dac biet, return luon
-        //viet else tru diem
-        //mac nhien CPU den dc day la hieu rang n=2..20
-        long result=1;
-        for (int i = 2; i <= n; i++) {
-            result *= i;
-        }
-        return result;
-    }
+//    public static long getFactorial(int n){
+//        if(n<0 || n>21)
+//            throw new IllegalArgumentException("n must be between 0..20");
+//        if (n== 0 || n==1)
+//            return 1; //dac biet, return luon
+//        //viet else tru diem
+//        //mac nhien CPU den dc day la hieu rang n=2..20
+//        long result=1;
+//        for (int i = 2; i <= n; i++) {
+//            result *= i;
+//        }
+//        return result;
+//    }
+    //viet ham de quy cho pro
+     public static long getFactorial(int n){
+         if(n<0||n>20)
+             throw new IllegalArgumentException("n must be between 0..20");
+         if(n == 0 || n==1)
+             return 1; //ddk dung
+         return n * getFactorial(n-1); //de quy do em
+         //goi lai chinh ham cua minh vs quy mo khac, n-1
+         //di mai se ve 1
+     }
+     
+     //5! = 5 *4!;4!= 4 * 3!; 3! = 3 * 2!; 2! = 2*1!
+     //1!=1, de quy goi lai minh vs quy mo nho hon
+     //ket luan: n!= n * (n-1)!
+     //phai co dung, k thi lap vo tan
 
 }
 // minh muon ket luan ham ngon, minh phai test cac truong hop xai ham
